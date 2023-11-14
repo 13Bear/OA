@@ -1,31 +1,107 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
-    margin: 0;
+.header {
+    background-color: #001d3d;
+    color: white;
+    padding: 20px 0;
 }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
+.logo h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #001d3d;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-button {
+    margin: 0 10px;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.section {
+    margin: 20px 0;
     padding: 20px;
     border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-h2 {
-    color: #333;
+.section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-#contact {
-    background-color: #f9f9f9;
+.section h2 {
+    color: #white;
+    font-size: 2em;
+
+}
+
+.about-section {
+    position: relative;
+    background: url('aboutBackground.jpeg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.about-content {
+    z-index: 1;
+    color: white; 
+}
+
+
+.footer {
+    background-color: #001d3d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

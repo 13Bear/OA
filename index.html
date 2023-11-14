@@ -5,97 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oakwood Aesthetics</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #1e272e;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2em;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #ecf0f1; /* Lighter color for the title text */
-            letter-spacing: 2px; /* Adjust letter spacing for a sleek look */
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h2 {
-            color: #1e272e;
-            font-size: 1.5em;
-        }
-
-        #contact {
-            background-color: #ecf0f1;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        .image-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .image-container img {
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Oakwood Aesthetics</h1>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Oakwood Aesthetics</h1>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <!-- Add more navigation links as needed -->
+            </nav>
+            <div class="social-media">
+                <a href="#" class="social-button"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#" class="social-button"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="social-button"><img src="facebook-icon.png" alt="Facebook"></a>
+                <!-- Add more social media buttons as needed -->
+            </div>
+        </div>
     </header>
 
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>Email: <span id="email">oakwoodaesthetics@gmail.com</span></p>
-        <p>Phone: <span id="phone">123-456-7890</span></p>
-        <p>Address: <span id="address">123 Oakwood Street, Cityville, USA</span></p>
-    </section>
+    <div class="container">
 
-    <section id="about">
-        <h2>About Oakwood Aesthetics</h2>
-        <p>
-            Welcome to Oakwood Aesthetics, where we strive to provide the best services to enhance your beauty and well-being.
-        </p>
-        
-        <!-- Add image containers with image paths -->
-        <div class="image-container">
-            <img src="image1.jpeg" alt="Dog 1">
-            <p>Dog</p>
+        <section id="about" class="section about-section">
+            <div class="about-content">
+                <h2>About Oakwood Aesthetics</h2>
+                <p>
+                    Welcome to Oakwood Aesthetics, where we strive to provide the best services to enhance your beauty and well-being.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: <span id="email">oakwoodaesthetics@gmail.com</span></p>
+            <p>Phone: <span id="phone">123-456-7890</span></p>
+            <p>Address: <span id="address">123 Oakwood Street, Cityville, USA</span></p>
+        </section>
+
+        <!-- Add more sections as needed -->
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; 2023 Oakwood Aesthetics
         </div>
-
-        <!-- Add more image containers as needed -->
-
-    </section>
-
-    <!-- Add more sections as needed -->
+    </footer>
 
 </body>
 
