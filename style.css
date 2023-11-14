@@ -97,10 +97,8 @@ nav a:hover {
 
 
 .footer {
-    background-color: #001d3d;
-    color: white;
+    color: grey;
     text-align: center;
-    padding: 20px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
