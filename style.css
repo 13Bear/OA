@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #598BAF;
     margin: 0;
     padding: 0;
 }
@@ -73,26 +73,27 @@ nav a:hover {
 }
 
 .section h2 {
-    color: #white;
-    font-size: 2em;
+    color: #598BAF;
+    font-size: 4em;
 
 }
 
-.about-section {
+.section {
     position: relative;
-    background: url('aboutBackground.jpeg') center/cover no-repeat;
-    color: white;
+    background-color: #FFFFFA; /* Off-White */
+    color: #598BAF;
     text-align: center;
-    height: 400px; 
+    height: 40em; 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .about-content {
     z-index: 1;
-    color: white; 
+    color: #598BAF; 
+    background-color: #FFFFFA; /* Off-White */
+
 }
 
 
@@ -103,3 +104,36 @@ nav a:hover {
     width: 100%;
     bottom: 0;
 }
+
+.contact-section {
+    background-color: #2f3c48; 
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;  
+    line-height: 1.6;
+  } 
+  
+  .contact-section a {
+    color: #35e3f5;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact-section .info {
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  .contact-section .info i {
+    margin-right: 10px;
+  }
